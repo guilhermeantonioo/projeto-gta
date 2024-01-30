@@ -41,8 +41,9 @@
     }
 
     .btn-menu{
-        display: none;
+        display: flex;
         opacity: 1;
+        left: 1;
     }
 
     .compre-ja{
@@ -73,6 +74,13 @@
 }
 
 @media(max-width: 425px){
+    .btn-menu{
+        display: flex;
+        opacity: 1;
+    }
+    .logo{
+        padding-left: 50px;
+    }
     main::after{
             background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
         }
